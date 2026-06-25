@@ -1,0 +1,20 @@
+{% extends 'core/base.html' %}
+
+{% block title %}DATAGO - About Us{% endblock %}
+
+{% block content %}
+<div class="page-container container-centered">
+    <div class="glass-card text-center">
+        <h1 class="page-headline" style="text-align: left; font-size: 3rem; color: black; font-weight: bold;">About Us</h1>
+        <p class="lead-text" style="text-align: left; color: black;">DATAGO is a dataset management platform designed to help users manage, organize, and analyze datasets in a structured way within one integrated system.</p>
+        
+        <br><br>
+
+        <h1 class="page-headline" style="text-align: right; font-size: 3rem; color: black; font-weight: bold;">Our Goal</h1>
+        <p class="lead-text" style="text-align: left; color: black;">This platform was created to simplify the dataset management process used in software modeling and data analysis.<br>
+        With DATAGO, users can create dataset structures, upload data, and monitor dataset quality and changes efficiently.</p>
+        
+        <a href="{% url 'home' %}" class="btn-primary">Back to Home</a>
+    </div>
+</div>
+{% endblock %}
